@@ -1,5 +1,4 @@
 const notificationController = require('../controllers/ticketNotification.controller');
-//const { authJwt, verifyTicketRequestBody } = require("../middlewares");
 
 module.exports = function (app) {
 

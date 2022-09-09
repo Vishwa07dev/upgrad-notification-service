@@ -5,13 +5,15 @@ module.exports = nodemailer.createTransport({
     host: "smtp.gmail.com",
     auth: {
         user: 'vish007dev@gmail.com',
-        pass: 'Welcome@07',
+        pass: 'vpphciilrvkzgmkq',
     },
     secure: true,
 });
 
 
 /** 
+ * TEST code to check if the email is being sent or not !
+ * 
 const mailData = {
     from: 'crm-notification-service@gmail.com',
     to: 'kankvish@gmail.com',
